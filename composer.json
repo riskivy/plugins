@@ -1,0 +1,25 @@
+{
+  "name": "riskivy/plugins",
+  "version": "0.0.1",
+  "description": "插件管理管理系统",
+  "type": "yii2-extension",
+  "keywords": ["yii2","extension","plugins"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "jack.hu",
+      "email": "jack.hu@tophant.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "riskivy\\plugins\\": "src"
+    }
+  },
+  "extra": {
+    "bootstrap": "riskivy\\plugins\\components\\HookBootstrap"
+  }
+}
